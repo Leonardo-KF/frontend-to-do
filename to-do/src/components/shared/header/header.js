@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../../img/checklogo.png";
-import "./header.css";
 
 const Header = () => {
   return (
