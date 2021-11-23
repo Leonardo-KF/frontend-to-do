@@ -11,7 +11,7 @@ const card = (props) => {
           <h5 class="card-title">{task.titulo}</h5>
           <p class="card-text">{task.descricao}</p>
           <button onclick="" class="btn btn-primary">
-            Button
+            status
           </button>
         </div>
       </div>
