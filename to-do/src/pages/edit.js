@@ -46,6 +46,10 @@ const Edit = () => {
     navigate(`/view/${id}`);
   };
 
+  const Cancel = () => {
+    navigate("/");
+  };
+
   return (
     <div className="container">
       <div className="card mt-4">
@@ -143,7 +147,7 @@ const Edit = () => {
               <button type="submit" className="btn btn-success">
                 Enviar
               </button>
-              <button type="button" className="btn btn-danger">
+              <button type="button" onClick={Cancel} className="btn btn-danger">
                 Voltar
               </button>
             </div>
